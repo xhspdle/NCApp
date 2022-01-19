@@ -9,13 +9,14 @@ const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen}/>
-        <Stack.Screen name="Details" component={DetailsScreen}/>
-        <Stack.Screen name="WebView" component={WebViewScreen}/>
-      </Stack.Navigator>
-    </NavigationContainer>
+    <WebViewScreen/>
+    // <NavigationContainer>
+    //   <Stack.Navigator>
+    //     <Stack.Screen name="Home" component={HomeScreen}/>
+    //     <Stack.Screen name="Details" component={DetailsScreen}/>
+    //     <Stack.Screen name="WebView" component={WebViewScreen}/>
+    //   </Stack.Navigator>
+    // </NavigationContainer>
   );
 }
 
