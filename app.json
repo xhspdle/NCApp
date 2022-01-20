@@ -2,18 +2,19 @@
   "expo": {
     "name": "NCApp",
     "slug": "NCApp",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "bundleIdentifier": "com.hdnc.NCApp",
-      "buildNumber": "2.0.0"
+      "buildNumber": "3.0.0"
     },
     "android": {
       "package": "com.hdnc.NCApp",
-      "versionCode": 2
-    }
+      "versionCode": 3
+    },
+    "description": ""
   },
   "name": "NCApp"
 }
